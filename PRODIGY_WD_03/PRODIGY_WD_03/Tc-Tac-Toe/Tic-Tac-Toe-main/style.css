@@ -1,0 +1,49 @@
+body {
+    font-family: "candara", fantasy;
+}
+
+section {
+    text-align: center;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #5a3bb5;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #d72f2f;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #3dc518;
+    color: #f5f9f9;
+}
+
+.game--status {
+    font-size: 40px;
+    color: #642fd7;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #ffecb3;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #642fd7;
+    box-shadow: 2px 2px 2px 2px #b84f09;
+    border: 2px solid #b84f09;
+}
